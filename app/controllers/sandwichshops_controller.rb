@@ -33,7 +33,7 @@ class SandwichshopsController < ApplicationController
     private
 
     def sandwichshop_params
-        params.require(:sandwichshop).permit(:name, :description, :city_id)
+        params.require(:sandwichshop).permit(:name, :description, :city_id, :city_name)
     end
 
 end
