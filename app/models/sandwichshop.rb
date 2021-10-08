@@ -8,4 +8,8 @@ class Sandwichshop < ApplicationRecord
     end
   end
 
+  def city_name
+    self.city.name
+  end
+
 end
