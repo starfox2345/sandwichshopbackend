@@ -1,6 +1,10 @@
 class Sandwichshop < ApplicationRecord
   belongs_to :city
 
+  def naming
+    self.name.upcase
+  end
+
 
   def city_name=(city_attribute)
     if !city_attribute.blank?

@@ -1,4 +1,5 @@
-class SandwichshopSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description, :city_id, :city_name
+class SandwichshopSerializer
+  include FastJsonapi::ObjectSerializer
+  attributes :name, :description, :city_id, :naming, :city_name
   belongs_to :city
 end

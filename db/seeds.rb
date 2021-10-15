@@ -12,3 +12,7 @@
 # Sandwichshop.create(name: "Subway", description: "Makes a variety of sandwiches", city: Brooklyn);
 # Sandwichshop.create(name: "Burger King", description: "A fast food restaurant that sell a variety of sandwiches and other fried food, like McDonalds", city: Queens);
 # Sandwichshop.create(name: "McDonalds", description: "A fast food restaurant that sell a variety of sandwiches and other fried food", city: Brooklyn);
+
+Manhattan = City.create(name: "Manhattan", state: "NY", zipcode: 10012, description: "Most popular part of NYC")
+StatenIsland = City.create(name: "Staten Island", state: "NY", zipcode: 10012, description: "Staten Island... I guess")
+Bronx = City.create(name: "Bronx", state: "NY", zipcode: 10012, description: "North of Manhattan in NYC")
